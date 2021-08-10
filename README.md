@@ -2,7 +2,7 @@
 record  CUD operations in postgres in JSON format for reporting and FINANCIAL Audits.
 
 
-USE THE QUERY BELOW FOR REPORTS
+-- USE THE QUERY BELOW FOR REPORTS
 
 
 SELECT action,
