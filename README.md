@@ -2,6 +2,9 @@
 record  CUD operations in postgres in JSON format for reporting and FINANCIAL Audits.
 
 
+USE THE QUERY BELOW FOR REPORTS
+
+
 SELECT action,
        query,
        Jsonb_pretty(Jsonb_diff_val(new_data, original_data)),
